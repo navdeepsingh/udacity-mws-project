@@ -1,0 +1,30 @@
+{
+  "name": "mws-restaurant-stage-1",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navdeepsingh/mws-restaurant-stage-1.git"
+  },
+  "author": "Navdeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navdeepsingh/mws-restaurant-stage-1/issues"
+  },
+  "homepage": "https://github.com/navdeepsingh/mws-restaurant-stage-1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8"
+  }
+}

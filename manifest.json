@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "name": "MWS Restaurant Website",
+  "short_name": "Website",
+  "description": "Udacity leraning project featuring best practices needed for front end development.",
+  "theme_color": "#3397DB",
+  "background_color": "#3397DB",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/img/small-icon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/large-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
