@@ -1,5 +1,8 @@
 {
   "hosting": {
     "public": "/"
+  },
+  "projects": {
+    "default": "udacity-mws-project-0123"
   }
 }
