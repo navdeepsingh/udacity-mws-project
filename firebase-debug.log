@@ -1,0 +1,28 @@
+[debug] [2020-02-03T08:58:59.103Z] ----------------------------------------------------------------------
+[debug] [2020-02-03T08:58:59.105Z] Command:       /Users/navdeepsingh/.nvm/versions/node/v8.10.0/bin/node /usr/local/bin/firebase serve
+[debug] [2020-02-03T08:58:59.105Z] CLI Version:   3.12.0
+[debug] [2020-02-03T08:58:59.105Z] Platform:      darwin
+[debug] [2020-02-03T08:58:59.105Z] Node Version:  v8.10.0
+[debug] [2020-02-03T08:58:59.105Z] Time:          Mon Feb 03 2020 14:28:59 GMT+0530 (IST)
+[debug] [2020-02-03T08:58:59.105Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-02-03T08:58:59.120Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-03T08:58:59.120Z] > authorizing via signed-in user
+[debug] [2020-02-03T08:58:59.122Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-03T08:58:59.122Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1//0gepbHYjlFQCmCgYIARAAGBASNwF-L9IrKXo2wahj9AO165vqQ8UWUtAINfVHPIRpdNOrmkeIDsrQ6k5Frc68cRzcn067yHiCYv4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Feb 03 2020 14:28:59 GMT+0530 (IST)
+[debug] [2020-02-03T08:58:59.485Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-03T08:58:59.506Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/udacity-mws-project-0123  
+ Mon Feb 03 2020 14:28:59 GMT+0530 (IST)
+[debug] [2020-02-03T08:59:00.404Z] Error: certificate has expired
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. certificate has expired
